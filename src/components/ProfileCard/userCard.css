@@ -1,0 +1,30 @@
+
+
+.profileCard {
+  width: 30rem;
+  background: #fff;
+  height: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin: 8rem 2rem;
+  cursor: pointer;
+}
+
+.userImg {
+  border-radius: 100rem;
+  width: 16rem;
+  overflow: hidden;
+  border: .1rem solid #1ED760;
+
+  height: 16rem;
+  transform: translateY(-30%);
+  box-shadow: rgb(0 0 0 / 8%) 0px 8px 16px -4px;
+}
+
+.userImg img {
+  width: 100%;
+  object-fit: cover;
+}

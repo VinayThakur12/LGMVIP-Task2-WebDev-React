@@ -1,0 +1,16 @@
+.userContainer{
+    padding: 20rem 20%;
+}
+
+.HomeContent{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.userCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
